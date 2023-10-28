@@ -12,7 +12,7 @@ be sure to check the requirements.txt so that you don't miss the required packag
 
 # Telegram Bot Project
 
-![Telegram Bot Logo](bot_logo.png)
+![Telegram Bot Logo](bot_logo.jpg)
 
 ## Overview
 
