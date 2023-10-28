@@ -3,7 +3,7 @@
 This is a simple telegram-bot.
 
 
-create a .env file with:
+<h1>create a .env file with :</h1> <br>
 bot_token = {token_number} <br>
 bot_username = {bot_username} <br>
 
