@@ -5,12 +5,15 @@ import os
 from dotenv import main
 
 # Load the stored environment variables
+
 main.load_dotenv()
 
-# print(os.getenv('bot_token'))
+
 # Get the values
+
 TOKEN: Final = os.getenv("bot_token")
 BOT_USERNAME: Final= os.getenv("bot_username")
+
 
 #Commands
 
@@ -91,8 +94,4 @@ app.add_error_handler(error)
     
 #polls the bot
 print('polling')
-app.run_polling(poll_interval=3)    
-
-
-
-
+app.run_polling(poll_interval=3)
