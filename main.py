@@ -1,10 +1,16 @@
 from typing import Final
 from telegram import Update
 from telegram.ext import Application, CommandHandler, MessageHandler, filters, ContextTypes
+import os
+from dotenv import main
 
+# Load the stored environment variables
+main.load_dotenv()
 
-TOKEN: Final = '6337708022:AAGb953a-pZ9EaRszlKezFvIgjvAAU7jvbk'
-BOT_USERNAME: Final= '@ech_em_bot'
+# print(os.getenv('bot_token'))
+# Get the values
+TOKEN: Final = os.getenv("bot_token")
+BOT_USERNAME: Final= os.getenv("bot_username")
 
 #Commands
 
@@ -31,6 +37,9 @@ def handle_response(text: str)->str:
     
     if 'i love python' in processed:
         return 'me as well! same-pinch'
+    
+    if 'who are you' in processed:
+        return 'I am a simple but very good bot created by HM!'
     
     return 'unable to process what you wrote'
 
@@ -59,9 +68,12 @@ async def error(update: Update, context: ContextTypes.DEFAULT_TYPE):
     print(f'Update {update} caused error {context.error}')
 
 
+
+
+#if __name__ == '__main__':
 print('Welcome to the botOfEchem...') 
     
-app= Application.builder().token(TOKEN).build()
+app = Application.builder().token(TOKEN).build()
     
 #commands
     
