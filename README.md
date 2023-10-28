@@ -1,18 +1,6 @@
-<!-- # telegramBot1
-
-<b>This is a simple telegram-bot.</b>
-
-
-<h1>create a .env file with :</h1> <br>
-bot_token = {token_number} <br>
-bot_username = {bot_username} <br>
-
-be sure to check the requirements.txt so that you don't miss the required packages. -->
-
-
 # Telegram Bot Project
 
-![Telegram Bot Logo](bot_logo.jpg)
+![Telegram Bot Logo](bot_logo.png)
 
 ## Overview
 
