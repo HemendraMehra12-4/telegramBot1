@@ -1,6 +1,6 @@
 # Telegram Bot Project
 
-![Telegram Bot Logo](bot_logo.png)
+![Telegram Bot Logo](https://drive.google.com/file/d/1LkcMeEteKXqu-rxA3cbkLLVXByzOliZ1/view?usp=drive_link)
 
 ## Overview
 
